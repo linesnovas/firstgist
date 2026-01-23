@@ -1,0 +1,20 @@
+{
+  "name": "hono-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World with Hono",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "hono",
+    "hello-world"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "^1.19.9",
+    "hono": "^4.11.5"
+  }
+}
